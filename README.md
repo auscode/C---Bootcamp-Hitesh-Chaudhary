@@ -16,5 +16,11 @@ Its not really https://www.isocpp.org/std/the-standard
 
 03, 11, 14, 17, 20
 
-## identfiers 
-    
+## identfiers
+
+dont go beyond nameing things
+dont use lating support
+dont use underscore at start
+\_at start means private
+\_\_ two underscore characters mean system reserved keyword
+conflict with reserved words like freind, inline etc.
