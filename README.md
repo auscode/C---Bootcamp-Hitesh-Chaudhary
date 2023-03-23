@@ -7,14 +7,13 @@
 
 ## Diff between 2 types of hello world in helloworld.cpp
 
--> Is c++ free
-Original versionof c++ newer version
-
-Its not really https://www.isocpp.org/std/the-standard
+    Is c++ free
+    Original versionof c++ newer version
+    Its not really https://www.isocpp.org/std/the-standard
 
 ## Development version of CPP
 
-03, 11, 14, 17, 20
+    03, 11, 14, 17, 20
 
 ## identfiers
 
@@ -24,3 +23,5 @@ dont use underscore at start
 \_at start means private
 \_\_ two underscore characters mean system reserved keyword
 conflict with reserved words like freind, inline etc.
+
+# data types
