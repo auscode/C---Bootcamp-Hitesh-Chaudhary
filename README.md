@@ -25,3 +25,5 @@ dont use underscore at start
 conflict with reserved words like freind, inline etc.
 
 # data types
+# Pointer types
+

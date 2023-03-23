@@ -16,6 +16,19 @@ int main()                   // paranthesis
     puts("Click on Button"); // it is known as a statement
     puts("Create a new Player");
     puts("add life to a player");
+
+    int card;
+    card = 40;
+    int my_card = card;
+
+    int *myp;
+    myp = &card;
+
+    my_card = *myp;
+    printf("vale of myp is %d", my_card);
+    printf("vale of myp is %p", myp);
+    printf("vale of myp is %d", my_card);
+
     return 0;
 }
 //[] brackets
