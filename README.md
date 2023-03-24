@@ -17,17 +17,25 @@
 
 ## identfiers
 
-dont go beyond nameing things
-dont use lating support
-dont use underscore at start
-\_at start means private
-\_\_ two underscore characters mean system reserved keyword
-conflict with reserved words like freind, inline etc.
+    dont go beyond nameing things
+    dont use lating support
+    dont use underscore at start
+    \_at start means private
+    \_\_ two underscore characters mean system reserved keyword
+    conflict with reserved words like freind, inline etc.
 
 # data types
+
 # Pointer types
+
 # reference types
 
 # Array types
 
+# integers
 
+    Short int
+    int
+    long int
+    long long int
+    or unsigned of all of it
