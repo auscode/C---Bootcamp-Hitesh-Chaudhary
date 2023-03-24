@@ -39,3 +39,6 @@
     long int
     long long int
     or unsigned of all of it
+
+# Conditional types
+    if , else, else if, switch 
