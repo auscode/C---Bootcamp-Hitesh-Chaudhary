@@ -26,4 +26,8 @@ conflict with reserved words like freind, inline etc.
 
 # data types
 # Pointer types
+# reference types
+
+# Array types
+
 
