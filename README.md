@@ -103,4 +103,9 @@
     -> Stack is predefined size (variable,)
     -> Stack is faster 
     -> Heap is predefined but can grow
-    
+
+# Detailed Fucntions
+    :description 
+    >retun_type name_of_fucntion(what you will give me){
+    >    what i will do
+    >}
