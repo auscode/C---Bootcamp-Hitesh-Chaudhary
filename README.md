@@ -95,3 +95,5 @@
 # Enum and Preprocessors
     #define &  enum 
     
+# Strong Language
+    auto, typeid 
