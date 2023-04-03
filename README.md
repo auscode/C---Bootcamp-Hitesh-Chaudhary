@@ -42,3 +42,7 @@
 
 # Conditional types
     if , else, else if, switch 
+
+# Loops 
+    ### iterations
+    while , do while, for, for (range base loop), 
