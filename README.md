@@ -45,4 +45,11 @@
 
 # Loops 
     ### iterations
-    while , do while, for, for (range base loop), 
+    while , do while, for, for (range base loop)
+
+# floats
+    float, double, long double
+    * take caution while using that *
+
+# Exceptions
+    try ,catch ,finally
