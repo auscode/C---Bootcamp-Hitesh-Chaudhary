@@ -84,3 +84,8 @@
 
 ## bitwise operators
     ~, ^ , |,  << lest shift, >> right shift
+
+# Memory Leaks
+    space must be deleted after allocation
+    new, delete 
+    
