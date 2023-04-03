@@ -88,4 +88,7 @@
 # Memory Leaks
     space must be deleted after allocation
     new, delete 
+
+# Structures
+    basic struct properties
     
