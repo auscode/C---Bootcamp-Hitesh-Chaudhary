@@ -52,4 +52,7 @@
     * take caution while using that *
 
 # Exceptions
-    try ,catch ,finally
+    try ,catch ,catch(...)
+
+# function
+    basics 
