@@ -97,3 +97,10 @@
     
 # Strong Language
     auto, typeid 
+
+# Stack & Heap Memory
+    -> Both of this are in RAM memory
+    -> Stack is predefined size (variable,)
+    -> Stack is faster 
+    -> Heap is predefined but can grow
+    
