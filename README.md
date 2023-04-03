@@ -1,18 +1,15 @@
 # C++ Bootcamp by hitesh Chaudhary
 
 ## Prerequisite
-
     gcc compiler is neede to compile the c++ compiler
     Codelite
 
 ## Diff between 2 types of hello world in helloworld.cpp
-
     Is c++ free
     Original versionof c++ newer version
     Its not really https://www.isocpp.org/std/the-standard
 
 ## Development version of CPP
-
     03, 11, 14, 17, 20
 
 ## identfiers
@@ -33,7 +30,6 @@
 # Array types
 
 # integers
-
     Short int
     int
     long int
@@ -56,3 +52,16 @@
 
 # function
     basics 
+
+# Linkers
+    https://stackoverflow.com/questions/9248533/how-does-a-linker-know-what-all-libraries-to-link 
+
+    https://stackoverflow.com/questions/3322911/what-do-linkers-do 
+
+# Qualifiers
+    > MOdified Qualifier
+        -> const, volatile, mutable
+
+    > Life Duration Qualifier
+        ->static, register, extern, auto
+
