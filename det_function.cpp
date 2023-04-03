@@ -19,7 +19,7 @@ int addme(int a, int b)
 {
     return (a + b);
 }
-float addme(flaot a, float b)
+float addme(float a, float b)
 {
     return (a + b);
 }
