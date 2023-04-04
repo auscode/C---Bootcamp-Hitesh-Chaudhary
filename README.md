@@ -115,3 +115,8 @@
     
 # templates
     template <typename T> "SYNTAX"
+
+# Functional Pointer
+    (*pointer_name)()= function_name;
+
+    
