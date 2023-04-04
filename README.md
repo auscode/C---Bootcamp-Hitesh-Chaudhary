@@ -242,4 +242,7 @@
 # vector 
     pushback, popback 
     overiridding <<
+
+# LAMBDAS
+    used basically in framework and db
     
