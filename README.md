@@ -238,3 +238,8 @@
     ->int a =5;
     in this a is l value and 3 is R value
 
+
+# vector 
+    pushback, popback 
+    overiridding <<
+    
