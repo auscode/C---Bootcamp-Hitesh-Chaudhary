@@ -109,3 +109,7 @@
     >retun_type name_of_fucntion(what you will give me){
     >    what i will do
     >}
+
+# header files
+    calling it via >#include "name.h"< 
+    

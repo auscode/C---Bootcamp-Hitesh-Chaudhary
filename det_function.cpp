@@ -1,4 +1,5 @@
 #include <iostream>
+#include "adder.h"
 using namespace std;
 
 void lifeUp(int *life)
@@ -14,15 +15,6 @@ void lifeUp(int *life)
 // {
 //     ++life;
 // }
-
-int addme(int a, int b)
-{
-    return (a + b);
-}
-float addme(float a, float b)
-{
-    return (a + b);
-}
 int main()
 {
     int life = 3;
