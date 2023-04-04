@@ -135,3 +135,7 @@
 # MACROS
     #define LCOINT int16_t
     -> # define name_you_want what_you want_to change
+
+# variadic
+    it is a fucntion takes infinite amount of arguments
+    SYNTAX "..." used in catch block
