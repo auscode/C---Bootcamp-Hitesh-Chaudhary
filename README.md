@@ -83,47 +83,58 @@
     |(or), &(and), !(not) , &&,  ||
 
 ## bitwise operators
+
     ~, ^ , |,  << lest shift, >> right shift
 
 # Memory Leaks
+
     space must be deleted after allocation
-    new, delete 
+    new, delete
 
 # Structures
+
     basic struct properties
 
 # Enum and Preprocessors
-    #define &  enum 
-    
+
+    #define &  enum
+
 # Strong Language
-    auto, typeid 
+
+    auto, typeid
 
 # Stack & Heap Memory
+
     -> Both of this are in RAM memory
     -> Stack is predefined size (variable,)
-    -> Stack is faster 
+    -> Stack is faster
     -> Heap is predefined but can grow
 
 # Detailed Fucntions
-    :description 
+
+    :description
     >retun_type name_of_fucntion(what you will give me){
     >    what i will do
     >}
 
 # header files
-    calling it via >#include "name.h"< 
-    
+
+    calling it via >#include "name.h"<
+
 # templates
+
     template <typename T> "SYNTAX"
 
 # Functional Pointer
+
     (*pointer_name)()= function_name;
 
-
 ### nullptr
-    use this (nullptr) 
+
+    use this (nullptr)
 
 # factorial & Recursion
+
     int factorial(int n){
         if (n>1){
         return n *factorial(n - 1);
@@ -133,48 +144,90 @@
     }
 
 # MACROS
+
     #define LCOINT int16_t
     -> # define name_you_want what_you want_to change
 
 # variadic
+
     it is a fucntion takes infinite amount of arguments
     SYNTAX "..." used in catch block
 
 # OOPS
+
     ->abstraction
     class and object creation
     private, public, protected
-### getter and setter 
-    use const in fucntion arg and 
+
+### getter and setter
+
+    use const in fucntion arg and
     try to name private data member as "_name"
 
-### struct 
+### struct
+
     change the class to struct if they only consist of a variable.
 
 # Constructor and Destructor
+
     -> Rule of three methods
-    http://www.stackoverflow.com/questions/4172722/what-is-the-rule-of-three 
+    http://www.stackoverflow.com/questions/4172722/what-is-the-rule-of-three
 
     Destructor
     ~name()
 
 ### Copy Constructor
+
     User shane;
     User peter = shane;
 
 # this function
-    points to the same object memory address 
 
-# Inheritence 
+    points to the same object memory address
+
+# Inheritence
+
     base class, derived classes
-    table of base, public and protected 
+    table of base, public and protected
     spend a lot of time on base class
+
 ### friend keywords
-    friend 
+
+    friend
+
 ### Multiple inheritance
+
     base to derived classes
+
 ### POlymrphism
-    handling multiple data types according to arg 
-# Virtual 
+
+    handling multiple data types according to arg
+
+# Virtual
+
     ->virtual can be used to remove pointer ambiguity
      -> if a function has no body init or contains 0 called Pure Virtual function
+
+# Smart Pointers
+
+    new -> allocate memory
+    delete -> free memory
+    *with new keyword delete is compulsory
+    + Smart Pointer resolve the above problem of forgetting deleting pointers
+
+    -> wrapper around real raw pointer
+
+    # A good read #
+    https://learn.microsoft.com/en-us/cpp/cpp/smart-pointers-modern-cpp?view=msvc-170
+    if you want to learn more go into the <memory>
+
+    ## UNIQUE POINTER
+        -> IT frees the memory if it goes out of scope
+        -> you can not copy it
+    ## SHARED POINTER
+        it uses a shared pointer
+        ->shared_ptr<User> tim =make_shared<User>();
+        shared_ptr<User> timm =tim;
+    ## WEAK POINTER
+        
+
