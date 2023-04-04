@@ -173,3 +173,8 @@
     friend 
 ### Multiple inheritance
     base to derived classes
+### POlymrphism
+    handling multiple data types according to arg 
+# Virtual 
+    ->virtual can be used to remove pointer ambiguity
+     -> if a function has no body init or contains 0 called Pure Virtual function
