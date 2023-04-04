@@ -16,10 +16,22 @@ public:
     // copy constructor
     Phone(const Phone &);
     // getter
-    string getName() { return _os; }
+    string getName() {
+        printf("Value of get name is %p\n", this);
+        return _os; 
+    }
+
+    int getPrice();
     // destructor
     ~Phone();
 };
+
+int Phone::getPrice(){
+    printf("Value of get price is %p\n",this);
+    return _price;
+}
+
+
 // class name :: method name : default values overridden
 Phone::Phone() : _name(), _os("Andy"), _price()
 {
@@ -53,6 +65,10 @@ int main()
     Phone OnePlus8("OnePlus8", "Android-Oxy", 3499);
     cout << OnePlus8.getName() << endl;
 
+    printf("Value of object if %p\n", &OnePlus8);
+    
+    cout << OnePlus8.getPrice() << endl;
+    
     Phone OnePlus8S = OnePlus8;
     cout << OnePlus8S.getName() << endl;
 
