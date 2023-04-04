@@ -131,3 +131,7 @@
         return 1;
         }
     }
+
+# MACROS
+    #define LCOINT int16_t
+    -> # define name_you_want what_you want_to change
