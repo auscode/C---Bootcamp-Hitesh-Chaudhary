@@ -144,3 +144,7 @@
     ->abstraction
     class and object creation
     private, public, protected
+### getter and setter 
+    use const in fucntion arg and 
+    try to name private data member as "_name"
+    
