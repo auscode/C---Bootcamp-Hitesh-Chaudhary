@@ -119,4 +119,6 @@
 # Functional Pointer
     (*pointer_name)()= function_name;
 
-    
+
+### nullptr
+    use this (nullptr) 
