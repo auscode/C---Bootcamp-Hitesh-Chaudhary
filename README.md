@@ -169,3 +169,5 @@
     base class, derived classes
     table of base, public and protected 
     spend a lot of time on base class
+## friend keywords
+    friend 
