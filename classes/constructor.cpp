@@ -7,10 +7,10 @@ class Phone
     string _name = "";
     string _os = "";
     int _price = 0;
-
-public:
     // default constructor
     Phone();
+
+public:
     // lets say parameter constructor
     Phone(const string &name, const string &os, const int &price);
     // copy constructor
@@ -47,8 +47,8 @@ Phone::~Phone() {
 
 int main()
 {
-    Phone samsungA1;
-    cout << samsungA1.getName() << endl;
+    // Phone samsungA1;
+    // cout << samsungA1.getName() << endl;
 
     Phone OnePlus8("OnePlus8", "Android-Oxy", 3499);
     cout << OnePlus8.getName() << endl;
