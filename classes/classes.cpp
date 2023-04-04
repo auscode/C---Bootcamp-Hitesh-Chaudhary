@@ -47,6 +47,10 @@ int main()
     const User rock;
     cout << rock.getSecret() << endl;
 
+    //copying one user to another or object copying (copy constructor)
+    User peter = shane;
+    cout<<peter.getSecret() << endl;
+
 
     return 0;
 }

@@ -151,4 +151,10 @@
 ### struct 
     change the class to struct if they only consist of a variable.
 
-    
+# Constructor and Destructor
+    -> Rule of three methods
+    http://www.stackoverflow.com/questions/4172722/what-is-the-rule-of-three 
+
+### Copy Constructor
+    User shane;
+    User peter = shane;
