@@ -232,3 +232,9 @@
         //this is not keeping track of weak ptr and every other pointer is keep tracked of
         weak_ptr<User> wtim = tim;
 
+# Move Sementics
+    move(a)
+    ## LValue & RValue
+    ->int a =5;
+    in this a is l value and 3 is R value
+
