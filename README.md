@@ -164,3 +164,8 @@
 
 # this function
     points to the same object memory address 
+
+# Inheritence 
+    base class, derived classes
+    table of base, public and protected 
+    spend a lot of time on base class
