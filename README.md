@@ -155,6 +155,9 @@
     -> Rule of three methods
     http://www.stackoverflow.com/questions/4172722/what-is-the-rule-of-three 
 
+    Destructor
+    ~name()
+
 ### Copy Constructor
     User shane;
     User peter = shane;
