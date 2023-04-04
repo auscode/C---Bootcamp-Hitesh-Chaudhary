@@ -139,3 +139,8 @@
 # variadic
     it is a fucntion takes infinite amount of arguments
     SYNTAX "..." used in catch block
+
+# OOPS
+    ->abstraction
+    class and object creation
+    private, public, protected
