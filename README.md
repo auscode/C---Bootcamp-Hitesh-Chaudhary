@@ -147,4 +147,6 @@
 ### getter and setter 
     use const in fucntion arg and 
     try to name private data member as "_name"
-    
+
+### struct 
+    change the class to struct if they only consist of a variable.

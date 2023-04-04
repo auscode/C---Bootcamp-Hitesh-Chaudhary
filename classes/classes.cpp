@@ -15,14 +15,8 @@ public:
     // methods
     void classMsg() { cout << "Class is Great, " << name << endl; }
     // const is added for protection
-    void setSecret(const int &newSecret)
-    {
-        _secret = newSecret;
-    }
-    int getSecret()
-    {
-        return _secret;
-    }
+    void setSecret(const int &newSecret){_secret = newSecret;}
+    int getSecret() {return _secret;}
 };
 
 int main()
