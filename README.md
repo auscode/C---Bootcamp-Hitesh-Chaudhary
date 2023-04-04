@@ -113,3 +113,5 @@
 # header files
     calling it via >#include "name.h"< 
     
+# templates
+    template <typename T> "SYNTAX"

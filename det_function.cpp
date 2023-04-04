@@ -15,6 +15,15 @@ void lifeUp(int *life)
 // {
 //     ++life;
 // }
+
+
+//templates 
+template <typename T>
+
+T addme (T a, T b){
+    return (a + b);
+}
+
 int main()
 {
     int life = 3;
