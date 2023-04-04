@@ -229,5 +229,6 @@
         ->shared_ptr<User> tim =make_shared<User>();
         shared_ptr<User> timm =tim;
     ## WEAK POINTER
-        
+        //this is not keeping track of weak ptr and every other pointer is keep tracked of
+        weak_ptr<User> wtim = tim;
 
