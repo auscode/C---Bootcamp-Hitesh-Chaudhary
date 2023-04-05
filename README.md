@@ -248,4 +248,14 @@
 
 # File Handling
     rename, writing, reading, and removing
+
+# STL (standard template library) 
+    ->it takes generic programming to a next level
+    ->Provides built in DSA 
+    ->Ships in 
+
+    Generic Programming 
+    ->Run time Polymorphism
+    -> Data types are not specified at the time of implementation
+    
     
