@@ -245,4 +245,7 @@
 
 # LAMBDAS
     used basically in framework and db
+
+# File Handling
+    rename, writing, reading, and removing
     
