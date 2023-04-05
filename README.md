@@ -281,4 +281,8 @@
             -UnOrdered Associative types
                 + set, multiset, map, mutimaps(hash maps)
 
+### functors 
+    use above knowledge
+    
+
     
