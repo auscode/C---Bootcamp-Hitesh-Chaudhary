@@ -286,5 +286,6 @@
     
 ### Sort
     using the stl by sort function
+    it generally uses the "Quick sort" but keeps on checking the memory usage and if it needs to enhance performance it switches to "HeapSort"
 
     
