@@ -240,11 +240,11 @@
     in this a is l value and 3 is R value
 
 # vector
+
     pushback, popback
     overiridding <<
     ->using stl
     ### USING CONTAINERS
-        
 
 # LAMBDAS
 
@@ -303,8 +303,13 @@
     ->binary search(forward iterator first, forward iterator last,thing you want to find)
 
 ### Partition & Stable Partitioning in STL
+
     works as its name implies
 
     -> partition(forward iterator first, forward iterator last, _predicate __pred)
     *Predicate are just LAMBDAS*
     -> it runs with O'n' time
+
+### List
+
+    use to look up for the list.cpp for more
