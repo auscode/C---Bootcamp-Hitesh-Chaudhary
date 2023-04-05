@@ -311,5 +311,9 @@
     -> it runs with O'n' time
 
 ### List
-
     use to look up for the list.cpp for more
+
+### Queue
+    FIFO basis function
+    ## priority queue
+        it sorts the queue data in order 
