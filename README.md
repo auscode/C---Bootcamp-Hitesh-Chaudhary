@@ -257,5 +257,28 @@
     Generic Programming 
     ->Run time Polymorphism
     -> Data types are not specified at the time of implementation
-    
+
+
+    -> Main components of STL
+        #Iterators
+            -loop them
+            -like vectors
+        
+        #Functors
+            -manage state,
+            -parametrized 
+
+        #Algorithm
+            -search
+            -sort
+
+        #Containers
+            -implementation of well defined data structures
+            -sequence types
+                + vectors,list, deques,stacks,queues
+            -associative types
+                + set, multiset,map, mutimaps(binary trees) 
+            -UnOrdered Associative types
+                + set, multiset, map, mutimaps(hash maps)
+
     
