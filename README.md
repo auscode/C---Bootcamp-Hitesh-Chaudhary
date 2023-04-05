@@ -299,3 +299,10 @@
     -> in stl search function works only if the array is sorted
     ->it uses binary search
     ->binary search(forward iterator first, forward iterator last,thing you want to find)
+
+### Partition & Stable Partitioning in STL
+    works as its name implies
+
+    -> partition(forward iterator first, forward iterator last, _predicate __pred)
+    *Predicate are just LAMBDAS*
+    -> it runs with O'n' time
