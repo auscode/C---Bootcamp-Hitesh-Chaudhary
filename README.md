@@ -233,28 +233,32 @@
         weak_ptr<User> wtim = tim;
 
 # Move Sementics
+
     move(a)
     ## LValue & RValue
     ->int a =5;
     in this a is l value and 3 is R value
 
+# vector
 
-# vector 
-    pushback, popback 
+    pushback, popback
     overiridding <<
 
 # LAMBDAS
+
     used basically in framework and db
 
 # File Handling
+
     rename, writing, reading, and removing
 
-# STL (standard template library) 
-    ->it takes generic programming to a next level
-    ->Provides built in DSA 
-    ->Ships in 
+# STL (standard template library)
 
-    Generic Programming 
+    ->it takes generic programming to a next level
+    ->Provides built in DSA
+    ->Ships in
+
+    Generic Programming
     ->Run time Polymorphism
     -> Data types are not specified at the time of implementation
 
@@ -263,10 +267,10 @@
         #Iterators
             -loop them
             -like vectors
-        
+
         #Functors
             -manage state,
-            -parametrized 
+            -parametrized
 
         #Algorithm
             -search
@@ -277,15 +281,21 @@
             -sequence types
                 + vectors,list, deques,stacks,queues
             -associative types
-                + set, multiset,map, mutimaps(binary trees) 
+                + set, multiset,map, mutimaps(binary trees)
             -UnOrdered Associative types
                 + set, multiset, map, mutimaps(hash maps)
 
-### functors 
+### functors
+
     use above knowledge
-    
+
 ### Sort
+
     using the stl by sort function
     it generally uses the "Quick sort" but keeps on checking the memory usage and if it needs to enhance performance it switches to "HeapSort"
 
-    
+### Searching
+
+    -> in stl search function works only if the array is sorted
+    ->it uses binary search
+    ->binary search(forward iterator first, forward iterator last,thing you want to find)
